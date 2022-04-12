@@ -1,1 +1,204 @@
+html {
+  font-family: "Cookie", cursive;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*mobile sizing*/
+[class*="col-"] {
+  width: 100%;
+}
+
+/* Tablet Sizing*/
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+/* Desktop Sizing*/
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+/* Large Sizing*/
+@media only screen and (min-width: 992px) {
+  .row {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+/* Extra Large Sizing*/
+@media only screen and (min-width: 1200px) {
+  .row {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+header {
+  background-color: yellow;
+  color: yellow;
+  padding: 15px;
+  background-image: url("barcelona.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+li {
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+
+  @media only screen and (orientation: portrait) {
+    body {
+      background-color: yellow;
+    }
+  }
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: cyan;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  background-image: url("barcelona.jpg");
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .flexbox {
+    flex-direction: row;
+    align-content: center;
+  }
+}
+
+#headerStyle {
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}
+
+#para {
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+  display: inline-block;
+}
+
+a:link,
+a :visited {
+  text-decoration: none;
+  background-color: yellow;
+  display: inline-flex;
+  justify-items: space-evenly;
+}
+
+a:hover,
+a:active {
+  background-color: magenta;
+}
