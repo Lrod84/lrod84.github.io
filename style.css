@@ -117,8 +117,8 @@ html {
 }
 
 header {
-  background-color: yellow;
-  color: yellow;
+  background-color: red;
+  color: red;
   padding: 15px;
   background-image: url("barcelona.jpg");
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ li {
   padding: 15px;
   margin-bottom: 5px;
   background-color: blue;
-  color: yellow;
+  color: red;
   text-align: center;
   display: inline-block;
 }
