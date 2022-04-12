@@ -51,23 +51,6 @@ li {
   display: inline-block;
 }
 
-@media only screen and (max-width: 600px) {
-  .hidden {
-    display: none;
-  }
-
-  @media only screen and (orientation: portrait) {
-    body {
-      background-color: yellow;
-    }
-  }
-}
-@media only screen and (orientation: landscape) {
-  body {
-    background-color: cyan;
-  }
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -79,15 +62,10 @@ img {
   flex-direction: column;
 }
 
-@media only screen and (min-width: 600px) {
-  .flexbox {
-    flex-direction: row;
-    align-content: center;
-  }
 }
 
 #headerStyle {
-  background-color: yellow;
+  background-color: white;
   position: sticky;
   top: 0;
 }
@@ -96,7 +74,7 @@ img {
   padding: 15px;
   margin-bottom: 5px;
   background-color: blue;
-  color: yellow;
+  color: white;
   text-align: center;
   display: inline-block;
 }
