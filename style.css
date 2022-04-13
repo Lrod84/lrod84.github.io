@@ -34,11 +34,6 @@ footer {
 }
 
 
-
-* {
-  box-sizing: border-box;
-}
-
 section {
   background-color: #ddd;
 }
@@ -59,52 +54,8 @@ section {
     grid-area: economy;
 }
 
-li {
-  padding: 15px;
-  margin-bottom: 5px;
-  background-color: blue;
-  color: red;
-  text-align: center;
-  display: inline-block;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .flexbox {
   display: flex;
   flex-direction: column;
-}
-
-}
-
-#headerStyle {
-  background-color: blue;
-  text-align: center;
-  position: sticky;
-  top: 0;
-}
-
-#para {
-  padding: 15px;
-  margin-bottom: 5px;
-  background-color: blue;
-  color: white;
-  text-align: center;
-  display: inline-block;
-}
-
-a:link,
-a :visited {
-  text-decoration: none;
-  background-color: red;
-  display: inline-flex;
-  justify-items: space-evenly;
-}
-
-a:hover,
-a:active {
-  background-color: red;
 }
