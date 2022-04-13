@@ -10,6 +10,15 @@ nav {
   top: 50px;
 }
 
+a,
+a:link {
+color:#222;
+}
+
+a:visited {
+  color: #555;
+}
+
 main {
   grid-area: main;
 
