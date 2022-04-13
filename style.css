@@ -58,9 +58,3 @@ section {
 #economy{
     grid-area: economy;
 }
-
-
-.flexbox {
-  display: flex;
-  flex-direction: column;
-}
