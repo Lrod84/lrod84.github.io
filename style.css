@@ -19,10 +19,13 @@ nav {
 
 main {
   grid-area: main;
+
+
   grid-template-columns: : 1fr 1fr;
   grid-templates-area:
-  "intro Geography"
-  "government economy"
+  "Intro Intro"
+  "geography economy"
+  "government government"
 }
 
 footer {
