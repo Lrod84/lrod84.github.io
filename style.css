@@ -2,16 +2,24 @@ html {
   font-family: "Cookie", cursive;
 }
 
+Body {
+  display:grid;
+  grid-template: 1fr 2fr;
+  grid-template:
+  "header header"
+  "nav    main"
+  "footer footer"
+}
+
 * {
   box-sizing: border-box;
 }
 
 
 header {
-  background-color: red;
+  background-color: white;
   color: red;
   padding: 15px;
-  background-image: url("barcelona.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -45,7 +53,7 @@ img {
 }
 
 #headerStyle {
-  background-color: white;
+  background-color: black;
   position: sticky;
   top: 0;
 }
