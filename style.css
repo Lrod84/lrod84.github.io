@@ -6,6 +6,8 @@ header {
 
 nav {
   grid-area: nav;
+  position: sticky;
+  top: 50px;
 }
 
 main {
