@@ -1,4 +1,9 @@
-
+Body {
+  font-family: "helvetica","Arial", sans-serif;
+  line-height: 1.5
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 
 header {
   grid-area: header;
