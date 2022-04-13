@@ -30,23 +30,34 @@ main {
 
 footer {
   grid-area: footer;
+    background-color: #eee;
 }
+
+
 
 * {
   box-sizing: border-box;
 }
 
-
-footer {
-  background-color: #eee;
-}
-
-
-
 section {
   background-color: #ddd;
 }
 
+#Intro {
+  grid-area: Intro;
+}
+
+#geography{
+  grid-area: geography;
+}
+
+#government{
+    grid-area: government;
+}
+
+#economy{
+    grid-area: economy;
+}
 
 li {
   padding: 15px;
