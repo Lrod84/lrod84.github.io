@@ -30,12 +30,12 @@ main {
 
 footer {
   grid-area: footer;
-    background-color: #eee;
+    background-color: #ddd;
 }
 
 
 section {
-  background-color: #114391;
+  background-color: #ff837a;
 }
 
 #Intro {
