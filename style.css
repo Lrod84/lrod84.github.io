@@ -1,11 +1,8 @@
 Body {
   font-family: "Times New Roman", serif;
-  display:grid;
   line-height: 1.5;
-  grid-template:
-  "header header"
-  "nav    main"
-  "footer footer"
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 * {
