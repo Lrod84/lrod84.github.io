@@ -2,6 +2,8 @@ html {
   font-family: "Times New Roman", serif;
 }
 
+
+
 Body {
   display:grid;
   grid-template: 1fr 2fr;
@@ -15,6 +17,16 @@ Body {
   box-sizing: border-box;
 }
 
+
+footer {
+  background-color: #eee;
+}
+
+
+
+section {
+  background-color: #ddd;
+}
 
 header {
   background-color: yellow;
