@@ -9,6 +9,22 @@ Body {
   "footer footer"
 }
 
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
 * {
   box-sizing: border-box;
 }
