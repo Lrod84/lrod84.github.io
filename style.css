@@ -1,13 +1,4 @@
-Body {
-  font-family: "Times New Roman", serif;
-  line-height: 1.5;
-  display:grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template:
-  "header header"
-  "nav    main"
-  "footer footer"
-}
+
 
 header {
   grid-area: header;
