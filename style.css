@@ -24,8 +24,8 @@ main {
   grid-template-columns: : 1fr 1fr;
   grid-templates-area:
   "Intro Intro"
-  "geography economy"
-  "government government"
+  "geography government"
+  "economy economy"
 }
 
 footer {
