@@ -18,6 +18,9 @@ color:#222;
 a:visited {
   color: #555;
 }
+a:hover {
+  color: #ddd;
+}
 
 main {
   grid-area: main;
