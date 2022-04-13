@@ -1,10 +1,5 @@
-html {
-  font-family: "Times New Roman", serif;
-}
-
-
-
 Body {
+  font-family: "Times New Roman", serif;
   display:grid;
   grid-template: 1fr 2fr;
   grid-template:
@@ -32,7 +27,6 @@ header {
   background-color: yellow;
     color: yellow;
     padding: 15px;
-    background-image: url("uk-flag.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
