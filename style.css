@@ -20,6 +20,7 @@ a:visited {
 }
 a:hover {
   color: #ddd;
+  padding: 4px;
 }
 
 main {
