@@ -47,19 +47,6 @@ section {
   background-color: #ddd;
 }
 
-header {
-  background-color: yellow;
-    color: yellow;
-    padding: 15px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 15px;
-}
 
 li {
   padding: 15px;
