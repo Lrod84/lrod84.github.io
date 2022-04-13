@@ -1,7 +1,7 @@
 Body {
   font-family: "Times New Roman", serif;
   display:grid;
-  grid-template: 1fr 2fr;
+  line-height: 1.5;
   grid-template:
   "header header"
   "nav    main"
