@@ -23,6 +23,10 @@ a:hover {
   padding: 4px;
 }
 
+a:active {
+  background-color: #eee;
+}
+
 main {
   grid-area: main;
 
