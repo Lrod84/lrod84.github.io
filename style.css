@@ -40,7 +40,7 @@ main {
   grid-template-areas:
     "introduction Geography "
     "government Economy"
-    "sources sources";
+    "sources CIA";
 
   grid-gap: 16px;
 }
@@ -85,6 +85,12 @@ section {
 #sources {
   grid-area: sources;
 }
+
+#CIA {
+  grid-area: CIA;
+}
+
+
 
 a,
 a:link {
