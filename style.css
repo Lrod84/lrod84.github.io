@@ -39,7 +39,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "introduction Geography "
-    "goverment Economy"
+    "government Economy"
     "sources sources";
 
   grid-gap: 16px;
