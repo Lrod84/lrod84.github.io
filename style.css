@@ -40,7 +40,7 @@ main {
   grid-template-areas:
     "introduction introduction"
     "Geography Economy"
-    "goverment";
+    "goverment goverment";
 
   grid-gap: 16px;
 }
