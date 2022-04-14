@@ -38,9 +38,9 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "introduction introduction"
-    "Geography Economy"
-    "goverment sources";
+    "introduction Geography "
+    "goverment Economy"
+    "sources sources";
 
   grid-gap: 16px;
 }
