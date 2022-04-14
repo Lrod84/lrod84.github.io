@@ -1,20 +1,86 @@
-Body {
-  font-family: "helvetica","Arial", sans-serif;
-  line-height: 1.5
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+
   display: grid;
-  grid-template-columns: 60px 60px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "header header"
+    "nav    main"
+    "footer footer";
+  grid-gap: 16px;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #555;
 }
 
 header {
+  padding: 16px;
   grid-area: header;
 }
 
 nav {
   grid-area: nav;
-  position: sticky;
-  top: 50px;
 }
 
+main {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "introduction introduction"
+    "geography    economy"
+    "goverment goverment";
+
+  grid-gap: 16px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+section {
+  background-color: #ddd;
+  padding: 16px;
+}
+
+#Intro {
+  grid-area: introduction;
+}
+
+
+#geography {
+  grid-area: geography;
+}
+
+#government {
+  grid-area: government;
+}
+
+#economy {
+  grid-area: economy;
+}
 a,
 a:link {
 color:#222;
@@ -30,41 +96,4 @@ a:hover {
 
 a:active {
   background-color: #eee;
-}
-
-main {
-  grid-area: main;
-
-
-  grid-template-columns: : 1fr 1fr;
-  grid-templates-area:
-  "Intro Intro"
-  "government geography"
-  "economy economy"
-}
-
-footer {
-  grid-area: footer;
-    background-color: #ddd;
-}
-
-
-section {
-  background-color: #ff837a;
-}
-
-#Intro {
-  grid-area: Intro;
-}
-
-#geography{
-  grid-area: geography;
-}
-
-#government{
-    grid-area: government;
-}
-
-#economy{
-    grid-area: economy;
 }
