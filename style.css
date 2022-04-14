@@ -90,7 +90,9 @@ section {
   grid-area: CIA;
 }
 
-
+Img {
+  width: 30px;
+}
 
 a,
 a:link {
