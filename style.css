@@ -39,7 +39,7 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "introduction introduction"
-    "geography    economy"
+    "Geography    Economy"
     "goverment goverment";
 
   grid-gap: 16px;
@@ -71,7 +71,7 @@ section {
 
 
 #geography {
-  grid-area: geography;
+  grid-area: Geography;
 }
 
 #government {
@@ -79,8 +79,9 @@ section {
 }
 
 #economy {
-  grid-area: economy;
+  grid-area: Economy;
 }
+
 a,
 a:link {
 color:#222;
