@@ -40,7 +40,7 @@ main {
   grid-template-areas:
     "introduction introduction"
     "Geography Economy"
-    "goverment goverment";
+    "goverment sources";
 
   grid-gap: 16px;
 }
@@ -80,6 +80,10 @@ section {
 
 #economy {
   grid-area: Economy;
+}
+
+#sources {
+  grid-area: sources;
 }
 
 a,
