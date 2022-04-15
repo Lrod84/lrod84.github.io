@@ -23,12 +23,12 @@ body {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   background-color: white;
+   background-color: blue;
 }
 
 h1 {
   margin: 0;
-  text-decoration-color: blue;
+  text-decoration-color: red;
 }
 
 h2 {
