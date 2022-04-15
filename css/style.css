@@ -156,11 +156,11 @@ Img {
 
 a,
 a:link {
- color:#eee;
+ color:black;
 }
 
 a:visited {
-  color: #4ca5ff;
+  color: black;
 }
 a:hover {
   color: black;
