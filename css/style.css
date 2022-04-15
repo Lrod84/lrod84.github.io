@@ -126,7 +126,7 @@ ul {
 
 
 Img {
-  max-width: 120%;
+  max-width: 100%;
   height: auto;
   background-image: url("uk-flag.jpg");
   background-image: url("unitedkingdom-building.jpg");
@@ -135,4 +135,21 @@ Img {
 
 .flexbox{
   display: flex;
+}
+
+a,
+a:link {
+ color:#eee;
+}
+
+a:visited {
+  color: #4ca5ff;
+}
+a:hover {
+  color: #cc0000;
+  padding: 10px;
+}
+
+a:active {
+  background-color: ##4ca5ff;
 }
