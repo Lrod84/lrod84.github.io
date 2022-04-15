@@ -44,7 +44,7 @@ header {
 font-family: "Rubik", sans-serif;
 font-weight: 500;
   background-color:rgba(0,0,1);
-  color: #4ca5ff;
+  color: rgba(0,0,1);
   padding: 16px;
   text-align: center;
   grid-area: header;
@@ -90,38 +90,38 @@ section {
 
 #Intro {
   grid-area: introduction;
-  font-family: Rubik;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
 
 
 #geography {
   grid-area: Geography;
-  font-family: Rubik;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
 
 #government {
   grid-area: government;
-  font-family: Rubik;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
 
 #economy {
   grid-area: Economy;
-  font-family: Rubik;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
 
 #sources {
   grid-area: sources;
-  font-family: Rubik;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
 
 #CIA {
   grid-area: CIA;
-  font-family: Rubik;
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
 
