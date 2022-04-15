@@ -39,6 +39,7 @@ h2 {
 header {
 font-family: "Cookie", cursive;
   background-color: white;
+  color: blue;
   padding: 16px;
   text-align: center;
   grid-area: header;
