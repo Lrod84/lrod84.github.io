@@ -90,6 +90,8 @@ section {
 
 #Intro {
   grid-area: introduction;
+  font-family: Rubik;
+  font-weight: 300;
 }
 
 
@@ -101,18 +103,26 @@ section {
 
 #government {
   grid-area: government;
+  font-family: Rubik;
+  font-weight: 300;
 }
 
 #economy {
   grid-area: Economy;
+  font-family: Rubik;
+  font-weight: 300;
 }
 
 #sources {
   grid-area: sources;
+  font-family: Rubik;
+  font-weight: 300;
 }
 
 #CIA {
   grid-area: CIA;
+  font-family: Rubik;
+  font-weight: 300;
 }
 
 li {
