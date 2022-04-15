@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Rubik?category=Sans+Serif")
+@import url("@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Luckiest+Guy&family=Oswald:wght@400;600&family=Outfit&family=Press+Start+2P&family=Rubik:ital,wght@1,300;1,500&family=Staatliches&display=swap'")
 
 html {
 background-color: #e6e6fa;
@@ -6,7 +6,7 @@ background-color: #e6e6fa;
 
 
 body {
-  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
+  font-family: "Rubik", "Cookie", "Oswald", sans-serif;
   line-height: 1.5;
 
   display: grid;
@@ -29,8 +29,8 @@ body {
 }
 
 h1 {
-  font-family:"Rubik", "Helvetica", "Arial", sans-serif;
-  font-weight: 900;
+  font-family:"Rubik", "cookie", "Oswald", sans-serif;
+  font-weight: 500;
   margin: 0;
   text-decoration-color: #FF0000;
 }
@@ -41,7 +41,8 @@ h2 {
 }
 
 header {
-font-family: "Cookie", cursive;
+font-family: "oswald", sans-serif;
+font-weight: 400;
   background-color: #e6e6fa;
   color: #4ca5ff;
   padding: 16px;
