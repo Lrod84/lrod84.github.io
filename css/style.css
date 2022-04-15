@@ -146,10 +146,10 @@ a:visited {
   color: #4ca5ff;
 }
 a:hover {
-  color: #e6e6fa;
+  color: #cc0000;
   padding: 10px;
 }
 
 a:active {
-  background-color: #00FFFF;
+  background-color: #4ca5ff;
 }
