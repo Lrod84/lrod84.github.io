@@ -1,0 +1,156 @@
+html {
+background-color: white;
+}
+
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "header nav"
+    "main   main"
+    "footer footer";
+  grid-gap: 16px;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: #FFFFFF;
+}
+
+h1 {
+  margin: 0;
+  text-decoration-color: #FF0000;
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #555;
+}
+
+header {
+font-family: "Cookie", cursive;
+  background-color: white;
+  color: blue;
+  padding: 16px;
+  text-align: center;
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+
+
+}
+
+main {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "introduction Geography "
+    "government Economy"
+    "sources CIA";
+
+  grid-gap: 16px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+
+header,
+nav,
+footer {
+  background-color: #E0E0E0;
+}
+
+section {
+  background-color: #d63638;
+  padding: 16px;
+}
+
+#Intro {
+  grid-area: introduction;
+}
+
+
+#geography {
+  grid-area: Geography;
+}
+
+#government {
+  grid-area: government;
+}
+
+#economy {
+  grid-area: Economy;
+}
+
+#sources {
+  grid-area: sources;
+}
+
+#CIA {
+  grid-area: CIA;
+}
+
+li {
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: rgb(60,60,60);
+  color: #E0E0E0;
+  text-align: center;
+  display: inline-block;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+
+Img {
+  max-width: 100%;
+  height: auto;
+  background-image: url("uk-flag.jpg");
+  background-image: url("unitedkingdom-building.jpg");
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+a,
+a:link {
+ color:#A0A0A0;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #FF6666;
+  padding: 10px;
+}
+
+a:active {
+  background-color: #00FFFF;
+}
