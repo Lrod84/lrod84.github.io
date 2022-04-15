@@ -1,5 +1,5 @@
 html {
-background-color: white;
+background-color: #e6e6fa;
 }
 
 
@@ -38,8 +38,8 @@ h2 {
 
 header {
 font-family: "Cookie", cursive;
-  background-color: white;
-  color: blue;
+  background-color: #e6e6fa;
+  color: #4ca5ff;
   padding: 16px;
   text-align: center;
   grid-area: header;
@@ -79,7 +79,7 @@ footer {
 }
 
 section {
-  background-color: #d63638;
+  background-color: #e6e6fa;
   padding: 16px;
 }
 
@@ -111,7 +111,7 @@ section {
 li {
   padding: 15px;
   margin-bottom: 5px;
-  background-color: #FF6666;
+  background-color: #4ca5ff;
   color: #eee;
   text-align: center;
   display: inline-block;
@@ -126,11 +126,11 @@ ul {
 
 
 Img {
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
   background-image: url("uk-flag.jpg");
   background-image: url("unitedkingdom-building.jpg");
-  background-image: url("Uk-map.jpg");
+  background-image: url("uk-map.jpg");
 }
 
 .flexbox{
@@ -143,10 +143,10 @@ a:link {
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: #4ca5ff;
 }
 a:hover {
-  color: #FF6666;
+  color: #e6e6fa;
   padding: 10px;
 }
 
