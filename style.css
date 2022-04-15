@@ -126,11 +126,11 @@ Img {
 
 a,
 a:link {
- color:#199,44,58;
+ color:#250,0,0;
 }
 
 a:visited {
-  color: #555;
+  color: #0,0,255;
 }
 a:hover {
   color: #ddd;
