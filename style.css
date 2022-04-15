@@ -90,8 +90,20 @@ section {
   grid-area: CIA;
 }
 
+li {
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+  display: inline-block;
+}
+
 Img {
-  width: 30px;
+  max-width: 100%;
+  height: auto;
+  background-image: url("uk-flag.jpg");
+  background-image: url("unitedkingdom-building.jpg");
 }
 
 a,
