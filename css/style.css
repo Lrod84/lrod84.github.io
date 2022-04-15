@@ -112,7 +112,7 @@ li {
   padding: 15px;
   margin-bottom: 5px;
   background-color: #FF6666;
-  color: #E0E0E0;
+  color: #eee;
   text-align: center;
   display: inline-block;
 }
@@ -129,17 +129,16 @@ Img {
   max-width: 100%;
   height: auto;
   background-image: url("uk-flag.jpg");
-  background-image: url"images/unitedkingdom-building.jpg");
+  background-image: url("unitedkingdom-building.jpg");
 }
 
 .flexbox{
   display: flex;
-  flex-direction: column;
 }
 
 a,
 a:link {
- color:#A0A0A0;
+ color:#eee;
 }
 
 a:visited {
