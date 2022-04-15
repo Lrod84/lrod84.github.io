@@ -128,8 +128,8 @@ ul {
 Img {
   max-width: 100%;
   height: auto;
-  background-image: url("uk-flag.jpg");
-  background-image: url("unitedkingdom-building.jpg");
+  background-image: url("images/uk-flag.jpg");
+  background-image: url("images/unitedkingdom-building.jpg");
 }
 
 .flexbox{
