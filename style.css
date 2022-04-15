@@ -23,7 +23,7 @@ body {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   background-color: blue;
+   background-color: grey;
 }
 
 h1 {
@@ -110,8 +110,8 @@ section {
 li {
   padding: 15px;
   margin-bottom: 5px;
-  background-color: red;
-  color: ;
+  background-color: ;
+  color: white;
   text-align: center;
   display: inline-block;
 }
