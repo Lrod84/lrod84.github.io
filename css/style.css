@@ -1,10 +1,12 @@
+@import url("https://fonts.google.com/specimen/Rubik?category=Sans+Serif")
+
 html {
 background-color: #e6e6fa;
 }
 
 
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
 
   display: grid;
@@ -27,6 +29,8 @@ body {
 }
 
 h1 {
+  font-family:"Rubik", "Helvetica", "Arial", sans-serif;
+  font-weight: 900;
   margin: 0;
   text-decoration-color: #FF0000;
 }
