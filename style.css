@@ -5,8 +5,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
-    "header header"
-    "nav    main"
+    "header nav"
+    "main   main"
     "footer footer";
   grid-gap: 16px;
 
