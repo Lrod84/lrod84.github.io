@@ -128,7 +128,7 @@ section {
 li {
   padding: 15px;
   margin-bottom: 5px;
-  background-color: #4ca5ff;
+  background-color: #e6e6fa;
   color: #eee;
   text-align: center;
   display: inline-block;
@@ -151,7 +151,6 @@ Img {
 }
 
 .flexbox{
-  background-color:#e6e6fa; 
   display: flex;
 }
 
