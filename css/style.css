@@ -136,20 +136,3 @@ Img {
 .flexbox{
   display: flex;
 }
-
-a,
-a:link {
- color:#eee;
-}
-
-a:visited {
-  color: #4ca5ff;
-}
-a:hover {
-  color: #cc0000;
-  padding: 10px;
-}
-
-a:active {
-  background-color: #4ca5ff;
-}
