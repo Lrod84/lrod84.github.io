@@ -111,7 +111,7 @@ section {
 li {
   padding: 15px;
   margin-bottom: 5px;
-  background-color: #FF6666;
+  background-color: rgb(60,60,60);
   color: #E0E0E0;
   text-align: center;
   display: inline-block;
