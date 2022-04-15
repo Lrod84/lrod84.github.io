@@ -1,7 +1,7 @@
 @import url("@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Luckiest+Guy&family=Oswald:wght@400;600&family=Outfit&family=Press+Start+2P&family=Rubik:ital,wght@1,300;1,500&family=Staatliches&display=swap'");
 
 html {
-background-color: #e6e6fa;
+background-color: rgba(0,0,1);
 }
 
 
@@ -158,17 +158,17 @@ Img {
 
 a,
 a:link {
- color:black;
+ color:rgba(0,0,1);
 }
 
 a:visited {
-  color: black;
+  color: rgba(0,0,1);
 }
 a:hover {
-  color: black;
+  color: rgba(0,0,1);
   padding: 10px;
 }
 
 a:active {
-  background-color: black;
+  background-color: rgba(0,0,1);
 }
