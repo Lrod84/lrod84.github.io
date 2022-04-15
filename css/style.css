@@ -41,9 +41,9 @@ h2 {
 }
 
 header {
-font-family: "Cookie", sans-serif;
-font-weight: 300;
-  background-color: #4ca5ff;
+font-family: "Rubik", sans-serif;
+font-weight: 500;
+  background-color:rgba(0,0,1);
   color: #4ca5ff;
   padding: 16px;
   text-align: center;
