@@ -71,7 +71,7 @@ footer {
 }
 
 section {
-  background-color: #ddd;
+  background-color: #d63638;
   padding: 16px;
 }
 
@@ -103,8 +103,8 @@ section {
 li {
   padding: 15px;
   margin-bottom: 5px;
-  background-color: blue;
-  color: yellow;
+  background-color: red;
+  color: ;
   text-align: center;
   display: inline-block;
 }
