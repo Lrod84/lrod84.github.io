@@ -28,7 +28,7 @@ body {
 
 h1 {
   margin: 0;
-  text-decoration-color: red;
+  text-decoration-color: #FF0000;
 }
 
 h2 {
@@ -75,7 +75,7 @@ footer p {
 header,
 nav,
 footer {
-  background-color: white;
+  background-color: #E0E0E0;
 }
 
 section {
@@ -143,13 +143,13 @@ a:link {
 }
 
 a:visited {
-  color: #0,0,255;
+  color: #FFFFFF;
 }
 a:hover {
-  color: #ddd;
-  padding: 4px;
+  color: #FF6666;
+  padding: 10px;
 }
 
 a:active {
-  background-color: #eee;
+  background-color: #00FFFF;
 }
