@@ -28,6 +28,7 @@ h2 {
 }
 
 header {
+font-family: "Cookie", cursive;
   padding: 16px;
   text-align: center;
   grid-area: header;
