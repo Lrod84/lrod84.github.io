@@ -1,9 +1,7 @@
 @import url("@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Luckiest+Guy&family=Oswald:wght@400;600&family=Outfit&family=Press+Start+2P&family=Rubik:ital,wght@1,300;1,500&family=Staatliches&display=swap'");
 
 html {
-font-size: 62.5%;
-overflow-x: hidden;
-
+font-size: 62.5%
 }
 
 
@@ -13,9 +11,13 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 18px;
+  grid-template-areas:
+    "header nav"
+    "main   main"
+    "footer footer";
+  grid-gap: 16px;
 
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -38,6 +40,10 @@ h1 {
   text-decoration-color: rgba(0,0,1);
 }
 
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #555;
+}
 
 header {
 font-family: "Rubik", sans-serif;
@@ -52,6 +58,19 @@ font-weight: 500;
 nav {
   grid-area: nav;
 
+}
+
+main {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "introduction Geography "
+    "government Economy"
+    "sources CIA";
+
+  grid-gap: 16px;
 }
 
 footer {
@@ -94,9 +113,9 @@ ul {
 
 
 Img {
-  max-width: 10%;
+  max-width: 100%;
   height: auto;
-  background: ("LR.jpeg");
+  background: ("LukasProfile.jpeg");
 }
 
 .flexbox{
