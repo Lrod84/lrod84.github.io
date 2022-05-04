@@ -66,9 +66,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "introduction Geography "
-    "government Economy"
-    "sources CIA";
+    "home,image "
 
   grid-gap: 16px;
 }
