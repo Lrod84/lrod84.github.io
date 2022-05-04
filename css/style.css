@@ -38,7 +38,26 @@ h1 {
   font-weight: 500;
   font-size: 45px;
   margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 1rem 0;
   text-decoration-color: rgba(0,0,1);
+}
+
+.box-container{
+  padding:1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.box{
+  flex:1 1 20 rem;
+}
+
+h3{
+  font-size: 1.7rem;
+  padding:1rem 0;
+  font-weight: normal;
 }
 
 h2 {
@@ -46,6 +65,7 @@ h2 {
   margin-top: 0;
   border-bottom: 1px solid #555;
 }
+
 
 header {
 font-family: "Rubik", sans-serif;
@@ -117,6 +137,7 @@ Img {
   max-width: 60%;
   height: auto;
   background: ("LR.JPG");
+  background: ("resume.jpg");
 }
 
 .flexbox{
