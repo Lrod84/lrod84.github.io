@@ -17,7 +17,7 @@ body {
     "footer footer";
   grid-gap: 16px;
 
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -34,13 +34,15 @@ body {
 
 
 h1 {
-  font-family:"Rubik", "cookie", "Oswald", sans-serif;
+  font-family:"Rubik";
   font-weight: 500;
+  font-size: 45px;
   margin: 0;
   text-decoration-color: rgba(0,0,1);
 }
 
 h2 {
+  font-size: 40px;
   margin-top: 0;
   border-bottom: 1px solid #555;
 }
@@ -56,9 +58,11 @@ font-weight: 500;
 }
 
 nav {
-  grid-area: nav;
+  font-size: 30px;
 
 }
+
+
 
 main {
   grid-area: main;
@@ -80,18 +84,16 @@ footer p {
   margin: 0;
 }
 
-header,
-nav,
-footer {
-  background-color: #e6e6fa;
-}
+
 
 section {
   background-color: #e6e6fa;
   padding: 16px;
 }
 
-
+p {
+  font-size: 25px;
+}
 
 li {
   padding: 15px;
@@ -110,10 +112,11 @@ ul {
 }
 
 
+
 Img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  background: ("LukasProfile.jpeg");
+  background: ("LR.JPG");
 }
 
 .flexbox{
