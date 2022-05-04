@@ -1,7 +1,9 @@
 @import url("@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Luckiest+Guy&family=Oswald:wght@400;600&family=Outfit&family=Press+Start+2P&family=Rubik:ital,wght@1,300;1,500&family=Staatliches&display=swap'");
 
 html {
-background-color: white;
+font-size: 62.5%;
+overflow-x: hidden;
+
 }
 
 
@@ -15,18 +17,23 @@ body {
     "header nav"
     "main   main"
     "footer footer";
-  grid-gap: 16px;
+  grid-gap: 18px;
 
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 * {
+  font-family: "rubik", "Oswald";
    box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+   margin: 0; padding:0;
+   text-decoration: none;
+   outline: none; border:none;
+   text-transform: capitalize;
    background-color: #FFFFFF;
 }
+
+
 
 h1 {
   font-family:"Rubik", "cookie", "Oswald", sans-serif;
@@ -55,19 +62,6 @@ nav {
 
 }
 
-main {
-  grid-area: main;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "introduction Geography "
-    "government Economy"
-    "sources CIA";
-
-  grid-gap: 16px;
-}
-
 footer {
   grid-area: footer;
   padding: 16px;
@@ -88,42 +82,7 @@ section {
   padding: 16px;
 }
 
-#Intro {
-  grid-area: introduction;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-}
 
-
-#geography {
-  grid-area: Geography;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-}
-
-#government {
-  grid-area: government;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-}
-
-#economy {
-  grid-area: Economy;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-}
-
-#sources {
-  grid-area: sources;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-}
-
-#CIA {
-  grid-area: CIA;
-  font-family: "Oswald", sans-serif;
-  font-weight: 300;
-}
 
 li {
   padding: 15px;
