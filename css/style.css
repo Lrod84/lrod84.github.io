@@ -12,8 +12,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
-    "header nav"
-    "main   main"
+    "header header"
+    "main main"
     "footer footer";
   grid-gap: 16px;
 
