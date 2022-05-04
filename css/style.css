@@ -13,10 +13,6 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-areas:
-    "header nav"
-    "main   main"
-    "footer footer";
   grid-gap: 18px;
 
   max-width: 1200px;
@@ -42,10 +38,6 @@ h1 {
   text-decoration-color: rgba(0,0,1);
 }
 
-h2 {
-  margin-top: 0;
-  border-bottom: 1px solid #555;
-}
 
 header {
 font-family: "Rubik", sans-serif;
