@@ -136,12 +136,13 @@ ul {
 Img {
   max-width: 50%;
   height: auto;
+  background: ("brazill.jpg")
   background: ("austrailia.jpg");
   background:("brazil.JPG");
   background:("lima.jpg");
   background:("mexico.jpg");
   background:("machupichu.JPG");
-    background:("somoa.jpg");
+  background:("somoa.jpg");
   background: ("LR.JPG");
   background: ("resume.jpg");
 }
