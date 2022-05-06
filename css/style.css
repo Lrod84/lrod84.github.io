@@ -108,7 +108,7 @@ footer p {
 
 section {
   background-color: #e6e6fa;
-  padding: 16px;
+  padding: 20px;
 }
 
 p {
@@ -130,7 +130,17 @@ ul {
   margin: 0;
   padding: 15px;
 }
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border-width: 60px;
+  border-color: blue;
+  border-style:#e6e6fa ;
+  max-width: 500px;
+  height: auto;
+}
 
 
 Img {
