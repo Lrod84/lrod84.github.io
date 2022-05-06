@@ -47,7 +47,7 @@ h1 {
   padding:1rem 0;
   display: flex;
   flex-wrap: wrap;
-  gap:2rem;
+  gap:20px;
 }
 
 .box{
@@ -134,7 +134,7 @@ ul {
 
 
 Img {
-  max-width: 70%;
+  max-width: 80%;
   height: auto;
   background: ("brazill.jpg")
   background: ("austrailia.jpg");
