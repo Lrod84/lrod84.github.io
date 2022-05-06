@@ -1,7 +1,7 @@
 @import url("@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Luckiest+Guy&family=Oswald:wght@400;600&family=Outfit&family=Press+Start+2P&family=Rubik:ital,wght@1,300;1,500&family=Staatliches&display=swap'");
 
 html {
-font-size: 62.5%
+font-size: 67.5%
 }
 
 
@@ -134,7 +134,7 @@ ul {
 
 
 Img {
-  max-width: 70%;
+  max-width: 80%;
   height: auto;
   background: ("brazill.jpg")
   background: ("austrailia.jpg");
